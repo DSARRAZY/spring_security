@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome</title>
+</head>
+<body>
+<h1>Welcome !</h1>
+<br />
+<a th:href="@{/logout}">
+  <button type="button">LOGOUT</button>
+</a>
+<div align="center" th:if="${username != null}">
+  <div th:text="${username}" />
+</div>
+</body>
+</html>
