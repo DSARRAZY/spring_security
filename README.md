@@ -27,4 +27,5 @@ INSERT INTO user (id, password, username, role_id) VALUES (2, '$2y$12$L3vgt7kgKM
 #### enfin se connecter avec :
 
 admin / admin
+OU
 user / user
