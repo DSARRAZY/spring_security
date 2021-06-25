@@ -5,7 +5,7 @@ APPLICATION-PROPERTIES --> CREATE
 
 spring.jpa.hibernate.ddl-auto=create
 
-##P UIS SECOND LANCEMENT METTRE "update" à la place de "create" et
+## PUIS SECOND LANCEMENT METTRE "update" à la place de "create" et
 mettre les données manuellement avec PHPMYADMIN ou autre : 
 
 spring.jpa.hibernate.ddl-auto=update
